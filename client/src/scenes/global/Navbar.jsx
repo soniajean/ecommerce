@@ -8,9 +8,7 @@ import {
 } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import { shades } from "../../theme";
-
 import { setIsCartOpen } from "../../state";
-
 
 function Navbar() {
   const navigate = useNavigate();
@@ -42,7 +40,7 @@ function Navbar() {
           sx={{ "&:hover": { cursor: "pointer" } }}
           color={shades.secondary[500]}
         >
-          ECOMMER
+          GEORGIAUNIT GADGETS AND GOODIES
         </Box>
         <Box
           display="flex"
